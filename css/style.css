@@ -1,0 +1,125 @@
+@import url(reset.css);
+@font-face {
+    font-family: 'Espuma Pro Rg';
+    src: url('../fonts/EspumaPro-Regular.woff2') format('woff2'),
+        url('../fonts/EspumaPro-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    background: url("../img/bg.webp") center/cover;
+    font-family: "Espuma Pro Rg";
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+}
+.header__title{
+    font-size: 46px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15px 0;
+    background-color: rgb(255, 255, 255, 0.4);
+}
+.main__container{
+    background: rgba(153, 155, 160, 0.8);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main__container>*:not(:last-child){
+    margin-bottom: 20px;
+}
+.description{
+    max-width: 860px;
+    margin: 0 auto;
+    border: 2px solid #1a1a1a;
+    border-radius: 10px;
+}
+.description__title{
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.description p:not(:last-child){
+    margin-bottom: 10px;
+}
+[class*="__description"]{
+    margin-bottom: 20px;
+}
+.content__images img{
+    max-width: 100%;
+}
+.images>*:not(:last-child){
+    margin-bottom: 20px;
+}
+.images__part-choose img{
+    border-radius: 15px;
+}
+.images__part-projects img{
+    border-radius: 10px;
+}
+.images__part-team img{
+    border-radius: 8px;
+}
+.images__part-testimonials img{
+    border-radius: 50%;
+}
+.images__part-blog img{
+    border-radius: 5px;
+}
+[class*="__item"]{
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+.circle1{
+    background: url("../img/design/oval.svg") center no-repeat, #1a1a1a;
+}
+.circle2{
+    background: url("../img/design/oval1.svg") center no-repeat, #1a1a1a;
+}
+.circle3{
+    background: url("../img/design/pricing1.svg") center no-repeat, #1a1a1a;
+}
+.circle4{
+    background: url("../img/design/pricing2.svg") center no-repeat, #1a1a1a;
+}
+.circle5{
+    background: url("../img/design/request.webp") center/contain no-repeat, #1a1a1a;
+}
+.circle6{
+    background: url("../img/design/team.svg") center no-repeat, #1a1a1a;
+}
+.dot1{
+    background: url("../img/design/choose.svg") center no-repeat;
+}
+.dot2{
+    background: url("../img/design/team2.svg") center no-repeat;
+}
+.dot3{
+    background: url("../img/design/testimonials5.svg") center no-repeat;
+}
+.dot4{
+    background: url("../img/design/clients.svg") center no-repeat;
+}
+.spot1{
+    background: url("../img/design/pricing3.svg") center/contain no-repeat,#1a1a1a;
+}
+.spot2{
+    background: url("../img/design/pricing4.svg") center/contain no-repeat, #1a1a1a;
+}
+.stripe1{
+    background: url("../img/design/stripe1.svg") center/contain no-repeat;
+}
+.stripe2{
+    background: url("../img/design/stripe2.svg") center/contain no-repeat;
+}
