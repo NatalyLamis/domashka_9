@@ -81,45 +81,45 @@ body{
     border: 2px solid #000000;
     border-radius: 10px;
 }
-.circle1{
+.circle__item-circle1{
     background: url("../img/design/oval.svg") center no-repeat, #1a1a1a;
 }
-.circle2{
+.circle__item-circle2{
     background: url("../img/design/oval1.svg") center no-repeat, #1a1a1a;
 }
-.circle3{
+.circle__item-circle3{
     background: url("../img/design/pricing1.svg") center no-repeat, #1a1a1a;
 }
-.circle4{
+.circle__item-circle4{
     background: url("../img/design/pricing2.svg") center no-repeat, #1a1a1a;
 }
-.circle5{
+.circle__item-circle5{
     background: url("../img/design/request.webp") center/contain no-repeat, #1a1a1a;
 }
-.circle6{
+.circle__item-circle6{
     background: url("../img/design/team.svg") center no-repeat, #1a1a1a;
 }
-.dot1{
+.dot__item-dot1{
     background: url("../img/design/choose.svg") center no-repeat;
 }
-.dot2{
+.dot__item-dot2{
     background: url("../img/design/team2.svg") center no-repeat;
 }
-.dot3{
+.dot__item-dot3{
     background: url("../img/design/testimonials5.svg") center no-repeat;
 }
-.dot4{
+.dot__item-dot4{
     background: url("../img/design/clients.svg") center no-repeat;
 }
-.spot1{
+.spot__item-spot1{
     background: url("../img/design/pricing3.svg") center/contain no-repeat,#1a1a1a;
 }
-.spot2{
+.spot__item-spot2{
     background: url("../img/design/pricing4.svg") center/contain no-repeat, #1a1a1a;
 }
-.stripe1{
+.stripe__item-stripe1{
     background: url("../img/design/stripe1.svg") center/contain no-repeat;
 }
-.stripe2{
+.stripe__item-stripe2{
     background: url("../img/design/stripe2.svg") center/contain no-repeat;
 }
